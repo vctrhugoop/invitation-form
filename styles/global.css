@@ -1,0 +1,82 @@
+:root {
+  --colors-accent-pink: #ff598b;
+  --colors-shape-shape-background: #131516;
+  --colors-shape-shape-body: #212427;
+  --colors-accent-yellow: #ffcd59;
+  --colors-input-input-placeholder: #869198;
+  --colors-input-input-base: #1c1f21;
+  --colors-text-text-body: #c8cdd0;
+  --colors-text-text-heading: #f9f9f9;
+  --colors-brand-brand-light: #59b2ff;
+  --colors-input-input-stroke: #363b40;
+  --colors-shape-shape-hover: #383d42;
+  --colors-feedback-danger: #ff5959;
+  --colors-accent-navy: #6a59ff;
+  --colors-accent-purple: #b259ff;
+  --colors-accent-fuschia: #ff59f9;
+  --colors-accent-orange: #ff8b59;
+  --colors-accent-lime: #e1ff59;
+  --colors-accent-green: #59ff91;
+  --colors-accent-cyan: #59fff9;
+  --colors-shape-shape-button: #2d3136;
+  --colors-brand-brand-dark: #1d6fb6;
+  --colors-brand-brand-mid: #3487cf;
+
+  --fonts-family-logo: "Leckerli One";
+  --fonts-family-header: "Baloo 2";
+  --fonts-family-body: "Open Sans";
+
+  --fonts-size-header-sm: 1.125rem;
+  --fonts-size-header-sm-rem: 1.125rem;
+  --fonts-size-header-md: 1.75rem;
+  --fonts-size-header-md-rem: 1.75rem;
+  --fonts-size-body-md: 1rem;
+  --fonts-size-body-md-rem: 1rem;
+  --fonts-size-body-sm: 0.875rem;
+  --fonts-size-body-sm-rem: 0.875rem; 
+  --fonts-size-logo: 2rem;
+  --fonts-size-logo-rem: 2.5rem;
+  --fonts-size-body-xs: 0.75rem;
+  --fonts-size-body-xs-rem: 0.75rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: var(--colors-shape-shape-background);
+
+  color: var(--colors-text-text-body);
+  font-family: var(--fonts-family-body);
+  font-size: var(--fonts-size-body-sm);
+
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--colors-text-text-heading);
+  font-family: var(--fonts-family-header);
+  font-size: var(--fonts-size-header-md);
+  font-weight: 700;
+}
+
+legend {
+  color: var(--colors-text-text-heading);
+  font-family: var(--fonts-family-header);
+  font-size: var(--fonts-size-header-sm);
+}
+
+label {
+  font-size: var(--fonts-size-body-sm);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
