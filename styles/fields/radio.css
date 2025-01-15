@@ -50,8 +50,8 @@
   align-items: center;
   justify-content: space-between;
 
-  margin-top: 1rem;
-
+  margin-block: 1rem 1.75rem;
+ 
     .radio-colors-inner {
       width: 2.5rem;
       height: 2.5rem;
