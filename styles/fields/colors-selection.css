@@ -1,0 +1,57 @@
+.color-selection-base {
+  width: 1.75rem;
+  height: 1.75rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 999px;
+}
+
+.color-01 {
+  background: var(--colors-brand-brand-light);
+}
+
+.color-02 {
+  background: var(--colors-accent-navy);
+}
+
+.color-03 {
+  background: var(--colors-accent-purple);
+}
+
+.color-04 {
+  background: var(--colors-accent-fuschia);
+}
+
+.color-05 { 
+  background: var(--colors-accent-pink);
+}
+
+.color-06 {
+  background: var(--colors-feedback-danger);
+}
+
+.color-07 {
+  background: var(--colors-accent-orange);
+}
+
+.color-08 {
+  background: var(--colors-accent-yellow);
+}
+
+.color-09 {
+  background: var(--colors-accent-lime);
+}
+
+.color-10 {
+  background: var(--colors-accent-green);
+}
+
+.color-11 {
+  background: var(--colors-accent-cyan);
+}
+
+

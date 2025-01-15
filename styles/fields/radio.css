@@ -44,3 +44,33 @@
     }
   }
 }
+
+.radio-colors-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 1rem;
+
+    .radio-colors-inner {
+      width: 2.5rem;
+      height: 2.5rem;
+  
+      border-radius: 999px;
+      background: var(--colors-shape-shape-button);
+  
+      position: relative;
+  
+      & input, & input:focus, & input:hover {
+        all:unset;
+        position: absolute;
+        inset: 0;
+      }
+
+      &:has(:checked) {
+        border: 2px solid var(--colors-brand-brand-light);
+        }
+    }
+  } 
+ 
+
