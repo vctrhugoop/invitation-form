@@ -65,12 +65,17 @@ h2 {
 
 legend {
   color: var(--colors-text-text-heading);
-  font-family: var(--fonts-family-header);
+  font-family: var(--fonts-family-header);  
   font-size: var(--fonts-size-header-sm);
+  font-weight: 700;
+  line-height: 120%;
 }
 
 label {
   font-size: var(--fonts-size-body-sm);
+
+  display: block;
+  margin-bottom: 0.75rem;
 }
 
 a {

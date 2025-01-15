@@ -11,14 +11,6 @@
   margin: auto;
 }
 
-main {
-  overflow: auto;
-  scroll-behavior: smooth;
-
-  background-color: var(--colors-shape-shape-body);
-  border-radius: 0.75rem;
-}
-
 aside {
   height: 45.5rem; 
 
@@ -47,5 +39,24 @@ aside {
     font-family: var(--fonts-family-body);
     font-size: var(--fonts-size-body-md);
     font-weight: 300;
+  }
+}
+
+main {
+  overflow: auto;
+  scroll-behavior: smooth;
+
+  background-color: var(--colors-shape-shape-body);
+  border-radius: 0.75rem;
+
+  padding-block: 5rem;
+
+  & .main-container {
+    max-width: 35rem;
+    margin: auto;
+  }
+
+  & h2 {
+    margin-bottom: 2.5rem;
   }
 }
