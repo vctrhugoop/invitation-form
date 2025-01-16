@@ -60,3 +60,22 @@ main {
     margin-bottom: 2.5rem;
   }
 }
+
+main::-webkit-scrollbar {
+  width: 12px;
+  height: 12px; 
+}
+
+main::-webkit-scrollbar-track {
+  background: var(--colors-shape-shape-body);
+  border-radius: 10px;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: var(--colors-input-input-stroke);
+  border-radius: 10px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background: var(--colors-input-input-placeholder);
+}
