@@ -67,6 +67,10 @@
         inset: 0;
       }
 
+      &:hover {
+        background: var(--colors-shape-shape-hover);
+      }
+
       &:has(:checked) {
         border: 2px solid var(--colors-brand-brand-light);
       }
@@ -81,9 +85,12 @@
 
   .event-selection-inner {
 
-    border-radius: 0.5rem;
+    border-radius: 0.25rem;
 
     position: relative;
+
+    border: 1px solid var(--colors-input-input-stroke);
+    background: var(--colors-shape-shape-button);
 
     &  label {
       height: 100%;
@@ -93,21 +100,27 @@
       align-items: center;
       gap: 0.5rem;
 
-      border-radius: 8px;
-      border: 1px solid var(--colors-input-input-stroke, #363B40);
-      background: var(--colors-shape-shape-button, #2D3136);
+      border-radius: 0.25rem;
+      
+      
 
       & span {
         color: var(--colors-text-text-heading);
         font-size: var(--fonts-size-body-sm);
         font-weight: 400;
       }
+
+      
     }
 
     & input, & input:focus, & input:hover {
       all:unset;
       position: absolute;
       inset: 0;
+    }
+
+    &:hover {
+      background: var(--colors-shape-shape-hover);
     }
 
     &:has(:checked) {
