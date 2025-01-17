@@ -1,0 +1,28 @@
+.switch-toggle {
+  position: relative;
+  
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  & input[type="checkbox"] {
+    
+    all:unset;
+    position: absolute;
+    inset: 0;
+
+  }
+
+  .on {
+    display: none;
+  }
+
+  &:has(:checked) {
+    .on {
+      display: block;
+    }
+    .off {
+      display: none;
+    }
+  }
+}

@@ -30,3 +30,11 @@ form {
 
   margin-block: 1rem;
 }
+
+.event-action-wrapper {
+  margin-top: 1.75rem;
+
+  display: grid;
+  grid-template-columns: 31.43% 1fr;
+  gap: 1rem;
+}

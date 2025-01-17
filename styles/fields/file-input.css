@@ -1,0 +1,44 @@
+.file-input {
+  position: relative;
+
+  & input[type="file"] {
+    all: unset;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+
+  }
+
+  .custom-file-input {
+
+    display: flex;
+    align-items: center;  
+    gap: 0.75rem;
+
+    .file-input-btn {
+      height: 2.5rem;
+
+      border-radius: 8px;
+      background: var(--colors-shape-shape-button);
+
+      padding: 0.25rem 0.74rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+
+      & span {
+        width: 100%;
+        color: var(--colors-text-text-heading);
+        font-weight: 600;
+      }
+    }
+
+    & span {
+      color: var(--colors-input-input-placeholder);
+      font-size: var(--fonts-size-body-md);
+      font-weight: 400;
+    }
+  }
+}
