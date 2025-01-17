@@ -26,6 +26,21 @@ input, textarea {
   &:invalid {
     border: 1px solid var(--colors-feedback-danger);
   }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+
+    color: var(--colors-feedback-danger);
+    font-size: var(--fonts-size-body-xs);
+    font-weight: 400;
+    margin-top: 0.5rem;
+  }
+
+  &:not(:focus):valid + .error {
+    display: none;
+  }
 }
 
 input[type="datetime-local"] {
@@ -39,3 +54,4 @@ textarea {
   padding-block: 1rem;
   height: 8.5rem;
 }
+

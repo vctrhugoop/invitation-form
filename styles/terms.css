@@ -1,0 +1,40 @@
+.terms {
+  border-top: 1px solid var(--colors-input-input-stroke);
+
+  padding-top: 2.5rem;
+
+  margin-bottom: 3rem;
+
+  .terms-wrapper {
+    display: flex;
+    gap: 0.75rem;
+    position: relative;
+
+    & input, & input:focus, & input:hover {
+      all:unset;
+      position: absolute;
+      inset: 0;
+    }
+
+    .checkbox-true {
+      display: none;
+    }
+
+    &:has(:checked) {
+      .checkbox-false{
+        display: none;
+      }
+
+      .checkbox-true {
+        display: block;
+      }
+    }
+  }
+
+
+  & a {
+    color: var(--colors-brand-brand-light);
+    font-weight: 600;
+    text-decoration-line: underline;
+  }
+}

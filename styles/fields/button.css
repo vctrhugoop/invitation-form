@@ -1,0 +1,26 @@
+.btn-forms {
+  display: flex;
+  justify-content: end;
+
+  & button {
+    all: unset;
+
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+  
+    border-radius: 8px;
+    background: var(--colors-brand-brand-dark);  
+
+    font-weight: 600;
+  
+    height: 2.5rem;
+  
+    padding: 0.25rem 1.25rem;
+  
+
+    cursor: pointer;
+  }
+}
